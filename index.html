@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+    <div class="container" id="container">
+        <p>simple Cal. by Daniel Ekwere</p>
+        <div class="calculator" id="calculator">
+            <input type="text" name="answer" id="answer" placeholder="0">
+            <button id="button3" onclick="deleteButton()">DEL</button>
+            <button id="button4" onclick="clearAll()">CL</button>
+            <button id="button5" onclick="addNum('%')">%</button>
+            <button id="button6" onclick="addNum('/')">/</button>
+            <button id="button7" onclick="addNum('7')">7</button>
+            <button id="button8" onclick="addNum('8')">8</button>
+            <button id="button9" onclick="addNum('9')">9</button>
+            <button id="button10" onclick="addNum('*')">*</button>
+            <button id="button11" onclick="addNum('4')">4</button>
+            <button id="button12" onclick="addNum('5')">5</button>
+            <button id="button13" onclick="addNum('6')">6</button>
+            <button id="button14" onclick="addNum('-')">-</button>
+            <button id="button15" onclick="addNum('1')">1</button>
+            <button id="button16" onclick="addNum('2')">2</button>
+            <button id="button17" onclick="addNum('3')">3</button>
+            <button id="button18" onclick="addNum('+')">+</button>
+            <button id="button19" onclick="addNum('.')">.</button>
+            <button id="button20" onclick="addNum('0')">0</button>
+            <button id="button21" onclick="calculate()" class="equal">=</button>
+        </div>
+    </div>
+    
+</body>
+</html>
